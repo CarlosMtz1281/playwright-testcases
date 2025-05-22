@@ -1,7 +1,7 @@
 # Test info
 
 - Name: Logout User sin tener session
-- Location: /Users/carlosmtz/repos/playwrite/tests/logout.spec.ts:36:5
+- Location: /Users/carlosmtz/repos/playwright-testcases/tests/logout.spec.ts:36:5
 
 # Error details
 
@@ -10,7 +10,7 @@ Error: locator.click: Test timeout of 30000ms exceeded.
 Call log:
   - waiting for getByRole('link', { name: 'Logout' })
 
-    at /Users/carlosmtz/repos/playwrite/tests/logout.spec.ts:43:54
+    at /Users/carlosmtz/repos/playwright-testcases/tests/logout.spec.ts:43:54
 ```
 
 # Page snapshot
@@ -179,8 +179,6 @@ Call log:
   - listitem:
     - link " View Product":
       - /url: /product_details/7
-- insertion:
-  - iframe
 - img "ecommerce website products"
 - insertion:
   - iframe
@@ -194,8 +192,6 @@ Call log:
   - listitem:
     - link " View Product":
       - /url: /product_details/8
-- insertion:
-  - iframe
 - img "ecommerce website products"
 - heading "Rs. 499" [level=2]
 - paragraph: Sleeves Printed Top - White
@@ -499,16 +495,13 @@ Call log:
   - /url: "#recommended-item-carousel"
 - link "":
   - /url: "#recommended-item-carousel"
-- insertion
-- insertion
 - contentinfo:
   - heading "Subscription" [level=2]
   - textbox "Your email address"
   - button ""
   - paragraph: Get the most recent updates from our site and be updated your self...
-  - paragraph: Copyright © 2021 All rights reserved
   - insertion
-- insertion
+  - paragraph: Copyright © 2021 All rights reserved
 ```
 
 # Test source
